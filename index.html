@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Architecture Company</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="projects">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Modern Residence</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et fringilla lectus.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Office Complex</h3>
+                <p>Nulla facilisi. Suspendisse potenti. Sed tincidunt lacus in lectus gravida.</p>
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Urban Park</h3>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Architectural Design</li>
+                <li>Interior Design</li>
+                <li>Urban Planning</li>
+                <li>Project Management</li>
+            </ul>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of passionate architects dedicated to creating innovative and sustainable designs.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to discuss a project? Reach out to us!</p>
+            <form action="contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Architecture Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
